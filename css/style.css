@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap');
+
 :root{
     --red: #81150b;
     --green: #5d6a09;
@@ -14,4 +16,35 @@ body{
 .navbar{
     background-color: var(--red);
     color: white;
+}
+
+#large{
+    background-color: rgba(255,255,255,0.6);
+}
+
+h1, h2{
+    font-family: 'Cabin Sketch', cursive; 
+    color: var(--darkgreen);
+    font-size: 3em;
+}
+
+p{
+    text-indent: 15px;
+    text-align: justify;
+    line-height:2em;
+}
+
+#focim{
+    font-size: 7em !important;
+}
+
+@media only screen and (max-width: 768px) {
+    #focim{
+        font-size: 50px;
+    }
+}
+
+#sarga{
+    background-color: var(--yellow);
+    border: var(--green) double;
 }
