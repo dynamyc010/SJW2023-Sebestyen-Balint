@@ -46,5 +46,35 @@ p{
 
 #sarga{
     background-color: var(--yellow);
-    border: var(--green) double;
+    border: var(--green) 5px double;
+}
+
+img.rounded{
+    box-shadow: 2px 5px 5px var(--green) ;
+}
+
+ul{
+    list-style-image: url(../img/pizza_icon.png);
+}
+
+span{
+    color: var(--darkgreen);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+footer{
+    background-color: var(--red) !important;
+    padding: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+a:hover{
+    color: black;
+    
 }
