@@ -1,1 +1,0 @@
-# SJW2023-Sebestyen-Balint

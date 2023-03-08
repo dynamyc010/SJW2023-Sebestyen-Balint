@@ -1,0 +1,17 @@
+:root{
+    --red: #81150b;
+    --green: #5d6a09;
+    --darkgreen: #414a04;
+    --yellow: #ffeccb;
+}
+
+body{
+    background-image: url(../img/bg_pizza.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+.navbar{
+    background-color: var(--red);
+    color: white;
+}
